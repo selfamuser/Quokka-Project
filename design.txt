@@ -1,0 +1,33 @@
+Application - CRUD Operation on Article
+
+Mandatory to include as per the question
+
+1 - User Authentication (Login, Register)
+2 - Get user profile (only the owner can GET its profile)
+3 - Author can post articles and perform below operations on them.
+
+  User can create article
+  User can edit article.
+  User can delete article.
+  User can add new article.
+
+
+Dependencies that I will be using -
+1 - express
+2 - mongoose
+3 - jsonwebtoken
+4 - bcrypt
+5 - nodemon
+6 - dotenv
+7 - bodyParser
+
+
+Expected DB Models
+
+1 - User Model (Name, Email, Password)
+2 - Article Model (Article will have title , content and author(author will be reference of User who creates))
+    
+
+
+
+
