@@ -16,12 +16,12 @@ const registerUser = async (req, res) => {
       });
     }
 
-    const hashedPassword = await bcrypt.hash(password, 10);
+ 
 
     const user = await User.create({
       name: name,
       email: email,
-      password: hashedPassword,
+      password: password,
     });
 
     const token = generateToken(user._id);
